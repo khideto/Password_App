@@ -4,7 +4,6 @@
 //
 //  Created by 近藤秀人 on 2023/03/04.
 //
-
 import SwiftUI
 import Amplify
 import LocalAuthentication
