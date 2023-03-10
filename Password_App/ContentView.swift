@@ -105,6 +105,17 @@ struct ContentView: View {
                 }
             //END-登録PASS表示部分
             }
+            Button(action: {
+                faceID()
+            }) {
+                Text("再認証")
+                    .bold()
+                    .padding()
+                    .frame(width: 100, height: 50)
+                    .foregroundColor(Color.white)
+                    .background(Color.blue)
+                    .cornerRadius(25)
+            }
         }
     }
 
